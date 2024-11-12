@@ -1,0 +1,21 @@
+{
+  "name": "esep-webhooks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "zip -r function.zip ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianguida/esep-webhooks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brianguida/esep-webhooks/issues"
+  },
+  "homepage": "https://github.com/brianguida/esep-webhooks#readme"
+}
