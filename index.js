@@ -20,7 +20,7 @@ exports.handler = async (event) => {
 
         // Construct the message payload for Slack
         const slackMessage = JSON.stringify({
-            text: `A new issue was created: ${issueUrl}`
+            text: `Issue Created: ${issueUrl}`
         });
 
         // Get SLACK_URL from environment variables
